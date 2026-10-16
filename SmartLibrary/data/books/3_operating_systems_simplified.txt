@@ -1,0 +1,41 @@
+Operating Systems Simplified
+
+Chapter 1: What an Operating System Does
+An operating system manages the hardware of a computer and provides services to programs.
+It decides which program runs on the processor, how memory is shared and how files are stored.
+The kernel is the core of the operating system and runs with full access to the hardware.
+
+Chapter 2: Processes and Threads
+A process is a program in execution. It has its own memory, open files and a process control block.
+A thread is the smallest unit of execution inside a process. Threads of one process share its memory.
+A process moves between the new, ready, running, waiting and terminated states.
+
+Chapter 3: CPU Scheduling
+The scheduler chooses which ready process runs next on the processor.
+First come first served runs processes in arrival order.
+Shortest job first gives the lowest average waiting time but needs to know burst times.
+Round robin gives each process a small time quantum and is fair for interactive systems.
+Priority scheduling may cause starvation, which ageing can prevent.
+
+Chapter 4: Synchronisation
+When threads share data, a race condition can occur if they update it at the same time.
+A critical section is code that only one thread may run at a time.
+Mutex locks and semaphores protect critical sections.
+The producer consumer problem and the dining philosophers problem are classic synchronisation exercises.
+
+Chapter 5: Deadlock
+A deadlock happens when processes wait for each other forever.
+Four conditions must hold together: mutual exclusion, hold and wait, no preemption and circular wait.
+The banker's algorithm avoids deadlock by checking whether a request keeps the system in a safe state.
+
+Chapter 6: Memory Management
+Paging divides memory into fixed size frames and programs into pages of the same size.
+A page table maps each page to a frame. The translation lookaside buffer caches recent translations.
+Virtual memory lets a program use more memory than is physically present.
+When a needed page is not in memory a page fault occurs.
+Page replacement algorithms such as FIFO, LRU and optimal choose which page to remove.
+
+Chapter 7: File Systems
+A file system organises data on disk into files and directories.
+Directories are often stored as a tree, with the root directory at the top.
+Allocation methods include contiguous, linked and indexed allocation.

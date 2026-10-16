@@ -1,0 +1,52 @@
+Introduction to Data Structures
+
+Chapter 1: Why Data Structures Matter
+A data structure is a way of organising data in memory so that it can be used efficiently.
+Choosing the right data structure often matters more than choosing a clever algorithm.
+A program that stores a million records in the wrong data structure may take minutes,
+while the same program with the right data structure finishes in milliseconds.
+
+Chapter 2: Arrays
+An array stores elements of the same type in contiguous memory locations.
+Any element of an array can be read in constant time using its index.
+Inserting into the middle of an array is slow because the following elements must shift.
+Arrays are the foundation of many other data structures, such as heaps and hash tables.
+
+Chapter 3: Linked Lists
+A linked list is a chain of nodes. Each node stores a value and a reference to the next node.
+In a doubly linked list each node also stores a reference to the previous node.
+Inserting or deleting a node is fast once you have a reference to its neighbour,
+but finding the k-th node requires walking the list from the head.
+
+Chapter 4: Stacks and Queues
+A stack follows the last in, first out rule. The push operation adds to the top and pop removes it.
+Stacks are used for function calls, undo features and checking balanced brackets.
+A queue follows the first in, first out rule. Enqueue adds at the rear and dequeue removes from the front.
+Queues are used in scheduling, printing and breadth first search.
+
+Chapter 5: Trees
+A tree is a hierarchical data structure made of nodes connected by edges.
+The top node is called the root, and nodes without children are called leaves.
+A binary tree is a tree in which every node has at most two children, called left and right.
+A binary search tree keeps smaller keys in the left subtree and larger keys in the right subtree,
+so searching a balanced binary search tree takes logarithmic time.
+Tree traversal visits every node: inorder, preorder and postorder are depth first traversals,
+while level order traversal visits the tree level by level using a queue.
+An AVL tree and a red black tree are self balancing binary search trees.
+
+Chapter 6: Heaps
+A heap is a complete binary tree stored inside an array.
+In a min heap every parent is smaller than its children, so the minimum is always at the root.
+Heaps are used to build priority queues and in the heap sort algorithm.
+
+Chapter 7: Hashing
+A hash table maps keys to values using a hash function.
+A good hash function spreads keys evenly across the table.
+When two keys land in the same slot a collision occurs; chaining and open addressing resolve collisions.
+On average, insert, delete and search in a hash table take constant time.
+
+Chapter 8: Graphs
+A graph is a set of vertices connected by edges. Edges may be directed or undirected, weighted or unweighted.
+Graphs are stored as an adjacency matrix or an adjacency list.
+Breadth first search uses a queue and depth first search uses a stack or recursion.
+A tree is a special kind of graph that is connected and has no cycles.

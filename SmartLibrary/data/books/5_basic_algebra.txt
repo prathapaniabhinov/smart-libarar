@@ -1,0 +1,31 @@
+Basic Algebra
+
+Chapter 1: Variables and Expressions
+Algebra uses letters such as x and y to stand for numbers we do not yet know.
+An expression combines numbers, variables and operations, for example 3x + 5.
+To evaluate an expression, replace each variable with its value and calculate.
+
+Chapter 2: Linear Equations
+An equation states that two expressions are equal, for example 2x + 3 = 11.
+To solve it, do the same operation on both sides until x is alone: 2x = 8, so x = 4.
+The graph of a linear equation in two variables, such as y = 2x + 1, is a straight line.
+The number multiplying x is the slope and the constant is the y intercept.
+
+Chapter 3: Simultaneous Equations
+Two equations with two unknowns can be solved together by substitution or by elimination.
+The solution is the point where the two straight lines meet on a graph.
+
+Chapter 4: Quadratic Equations
+A quadratic equation has the form a x squared + b x + c = 0.
+It can be solved by factorising, by completing the square or with the quadratic formula.
+The discriminant b squared minus 4ac tells whether there are two, one or no real roots.
+The graph of a quadratic equation is a curve called a parabola.
+
+Chapter 5: Inequalities
+An inequality compares expressions using less than or greater than.
+Solving an inequality is like solving an equation, except that multiplying or dividing
+by a negative number reverses the direction of the inequality sign.
+
+Chapter 6: Sequences
+An arithmetic sequence adds the same number each time, for example 2, 5, 8, 11.
+A geometric sequence multiplies by the same number each time, for example 3, 6, 12, 24.

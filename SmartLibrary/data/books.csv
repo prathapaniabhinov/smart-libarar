@@ -1,0 +1,6 @@
+bookId,title,author,category,fileName
+1,Introduction to Data Structures,R. Sharma,Computer Science,1_introduction_to_data_structures.txt
+2,Algorithms Explained,K. Rao,Computer Science,2_algorithms_explained.txt
+3,Operating Systems Simplified,S. Reddy,Computer Science,3_operating_systems_simplified.txt
+4,Forest Ecology,M. Green,Biology,4_forest_ecology.txt
+5,Basic Algebra,P. Gupta,Mathematics,5_basic_algebra.txt

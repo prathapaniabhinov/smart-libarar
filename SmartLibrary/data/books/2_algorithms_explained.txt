@@ -1,0 +1,46 @@
+Algorithms Explained
+
+Chapter 1: Measuring Algorithms
+An algorithm is a finite sequence of steps that solves a problem.
+We measure an algorithm by how its running time grows with the input size n.
+Big O notation describes the upper bound of this growth, ignoring constant factors.
+O(1) is constant time, O(log n) is logarithmic, O(n) is linear and O(n log n) is linearithmic.
+Quadratic algorithms, O(n^2), become slow very quickly as n grows.
+
+Chapter 2: Searching
+Linear search checks every element one by one and takes O(n) time.
+Binary search works only on sorted data. It compares the target with the middle element
+and discards half of the remaining elements at every step, so it takes O(log n) time.
+
+Chapter 3: Sorting
+Bubble sort, selection sort and insertion sort are simple sorting algorithms that take O(n^2) time.
+Merge sort divides the array into halves, sorts each half and merges them, taking O(n log n) time.
+Quick sort picks a pivot and partitions the array around it. Its average time is O(n log n).
+Heap sort uses a binary heap and also runs in O(n log n) time without extra memory.
+
+Chapter 4: String Matching
+String matching finds every place where a pattern occurs inside a text.
+The naive method tries the pattern at every position and may take O(n * m) time.
+The Knuth Morris Pratt algorithm, called KMP, builds a prefix table so it never moves backwards in the text.
+KMP finds all matches in O(n + m) time.
+The Rabin Karp algorithm compares hash values of the pattern and of each text window.
+A rolling hash updates the window hash in constant time as the window slides.
+The Z algorithm computes, for every position, the length of the longest substring that matches a prefix.
+The Aho Corasick algorithm builds a trie of many patterns and finds all of them in one pass over the text.
+String matching is used in search engines, text editors, plagiarism checkers and DNA analysis.
+
+Chapter 5: Greedy Algorithms
+A greedy algorithm makes the best local choice at each step.
+Huffman coding, Kruskal's minimum spanning tree and Dijkstra's shortest path are greedy algorithms.
+Greedy algorithms are fast but do not always give the optimal answer.
+
+Chapter 6: Dynamic Programming
+Dynamic programming solves a problem by combining solutions to overlapping subproblems.
+Each subproblem is solved once and its answer is stored in a table.
+The longest common subsequence, the knapsack problem and edit distance use dynamic programming.
+
+Chapter 7: Graph Algorithms
+Breadth first search finds the shortest path in an unweighted graph.
+Dijkstra's algorithm finds shortest paths when all edge weights are non negative.
+Topological sorting orders the vertices of a directed acyclic graph.
+A minimum spanning tree connects all vertices of a graph with the least total edge weight.

@@ -1,0 +1,13 @@
+userId,name,username,email,passwordHash,role,status,mustChangePassword
+101,Ramesh Babu,lib.ramesh,ramesh.lib@example.com,pbkdf2$100000$JCr8itt8lw3uyW3OLHSRtw==$alleX6mptvmpAkuwkSY2wU+AhxUYnjsTW26CxlJPZUs=,LIBRARIAN,ACTIVE,false
+102,Lakshmi Prasanna,lib.lakshmi,lakshmi.lib@example.com,pbkdf2$100000$CCSEU4UdL0a5/hL0MxRmPQ==$0mIykSprABf7ilyXVy/5bJQBPWSLjJUPA4R8Nuurnqc=,LIBRARIAN,ACTIVE,true
+103,Suresh Reddy,lib.suresh,suresh.lib@example.com,pbkdf2$100000$gOmE1d8ujVIoTKW+lDk72A==$LyL7ZNaq6yZlVIBp3gff8kbnL/cu7clNefCskGkfoSY=,LIBRARIAN,ACTIVE,true
+104,Sita Devi,tch.sita,sita.tch@example.com,pbkdf2$100000$Qk65Lbxx+quJG+0lSvj0Fw==$6I1IVsqKskd80GWv2CE3kf99XBiz3oum2kEGxMkmR50=,TEACHER,ACTIVE,true
+105,Venkata Rao,tch.venkat,venkat.tch@example.com,pbkdf2$100000$jAviYZ0WisxvMKWv7igNmw==$i7L6MPBZDBLK6dh6iwUcmZ/NhbzLshzLnzkcexncEks=,TEACHER,ACTIVE,true
+106,Anitha Kumari,tch.anitha,anitha.tch@example.com,pbkdf2$100000$t1idkc/EOD9Adx6KI48POw==$kvHtKKqmFGl/g6SnPGsnZx5T01yLN+dFrDKCkmc2e5A=,TEACHER,ACTIVE,true
+107,Ravi Kumar,stu.ravi,ravi.stu@example.com,pbkdf2$100000$mE3vgcaGaGRHkU6RK46SPg==$6Za7dO+ruMQSzViwp9IG7sOiQUpmgwGF3TtKuTI98n0=,STUDENT,ACTIVE,true
+108,Priya Sharma,stu.priya,priya.stu@example.com,pbkdf2$100000$DKNnShDzbhXhd/ZlcqSVmw==$W4A2503bn0wIYt2Q729d2PISugx6yRQt9V2Q5IggD74=,STUDENT,ACTIVE,true
+109,Kiran Teja,stu.kiran,kiran.stu@example.com,pbkdf2$100000$ijnTegMh9KWoAbeoB4e4tw==$Lq7qGkQlxAzWxG+r93GFZmIzuKzPYieQrww9rvm8Exk=,STUDENT,ACTIVE,true
+110,Divya Sri,stu.divya,divya.stu@example.com,pbkdf2$100000$PGu8Ba1cdNYXjrHdw6Q+ZQ==$433kd2uSBW4Z2e9Wohx4K53kRXIIAPEPqHckkoJEWQw=,STUDENT,ACTIVE,true
+111,Mahesh Varma,stu.mahesh,mahesh.stu@example.com,pbkdf2$100000$/PZHwAmxdqELpm1TLbLuOw==$jlmmvUyygjggE8O8pDpvxwWXZjt15oq3DtC4CqCMzAc=,STUDENT,INACTIVE,true
+112,Abhi,Abhi,Abhi@gmail.com,pbkdf2$100000$/c26TkfKGPDrBNzbHP0Olw==$Ct6IVffjNz3oOjwrOOa5PcMSWKTA3p7uEM7STwOtG7Y=,ADMIN,ACTIVE,false
